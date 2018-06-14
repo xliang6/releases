@@ -1,0 +1,31 @@
+The Eclipse OMR project is a set of open source C and C++ components that can be used to build robust language runtimes that support many different hardware and operating system platforms.
+
+Our current components are:
+* gc: Garbage collection framework for managed heaps
+* compiler: Components for building compiler technology, such as JIT compilers.
+* jitbuilder: An easy to use high level abstraction on top of the compiler technology.
+* port: Platform porting library
+* thread: A cross platform pthread-like threading library
+* util: general utilities useful for building cross platform runtimes
+* omrsigcompat: Signal handling compatibility library
+* omrtrace: Tracing library for communication with IBM Health Center monitoring tools
+* tool: Code generation tools for the build system
+* vm: APIs to manage per-interpreter and per-thread contexts
+* example: Demonstration code to show how a language runtime might consume some Eclipse OMR components
+* fvtest: A language-independent test framework so that Eclipse OMR components can be tested outside of a language runtime
+
+
+Component     | Functionally Stable   | API Stable
+--------------|:---------------------:|:------------:
+gc            | :white_check_mark:    | 
+compiler      | :white_check_mark:    | 
+jitbuilder    | :white_check_mark:    | 
+port          | :white_check_mark:    | :white_check_mark:
+thread        | :white_check_mark:    | :white_check_mark:
+util          | :white_check_mark:    | 
+omrsigcompat  | :white_check_mark:    | 
+omrtrace      | :white_check_mark:    | 
+tool          | :white_check_mark:    | 
+vm            | :white_check_mark:    | 
+examples      | :white_check_mark:    | 
+fvtest        | :white_check_mark:    | 
